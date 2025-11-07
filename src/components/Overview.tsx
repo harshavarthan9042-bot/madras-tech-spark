@@ -16,9 +16,9 @@ const Overview = () => {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-card p-8 rounded-xl shadow-card hover:shadow-hover transition-shadow">
-              <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-6">
-                <Target className="w-7 h-7 text-primary" />
+            <div className="bg-card p-8 rounded-xl shadow-card hover:shadow-glow transition-all border border-primary/10">
+              <div className="w-14 h-14 bg-gradient-card rounded-lg flex items-center justify-center mb-6 shadow-md">
+                <Target className="w-7 h-7 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-card-foreground mb-4">Our Vision</h3>
               <p className="text-muted-foreground leading-relaxed">
@@ -27,9 +27,9 @@ const Overview = () => {
               </p>
             </div>
             
-            <div className="bg-card p-8 rounded-xl shadow-card hover:shadow-hover transition-shadow">
-              <div className="w-14 h-14 bg-secondary/10 rounded-lg flex items-center justify-center mb-6">
-                <Lightbulb className="w-7 h-7 text-secondary" />
+            <div className="bg-card p-8 rounded-xl shadow-card hover:shadow-glow transition-all border border-secondary/10">
+              <div className="w-14 h-14 bg-gradient-accent rounded-lg flex items-center justify-center mb-6 shadow-md">
+                <Lightbulb className="w-7 h-7 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-card-foreground mb-4">Innovation Hub</h3>
               <p className="text-muted-foreground leading-relaxed">
@@ -38,9 +38,9 @@ const Overview = () => {
               </p>
             </div>
             
-            <div className="bg-card p-8 rounded-xl shadow-card hover:shadow-hover transition-shadow">
-              <div className="w-14 h-14 bg-accent/10 rounded-lg flex items-center justify-center mb-6">
-                <BookOpen className="w-7 h-7 text-accent" />
+            <div className="bg-card p-8 rounded-xl shadow-card hover:shadow-glow transition-all border border-accent/10">
+              <div className="w-14 h-14 bg-gradient-warm rounded-lg flex items-center justify-center mb-6 shadow-md">
+                <BookOpen className="w-7 h-7 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-card-foreground mb-4">Research Focus</h3>
               <p className="text-muted-foreground leading-relaxed">

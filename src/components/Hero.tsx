@@ -8,7 +8,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `linear-gradient(135deg, rgba(25, 55, 88, 0.92), rgba(25, 55, 88, 0.85)), url(${heroImage})`,
+          backgroundImage: `linear-gradient(135deg, rgba(24, 60, 130, 0.94), rgba(16, 185, 200, 0.88)), url(${heroImage})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

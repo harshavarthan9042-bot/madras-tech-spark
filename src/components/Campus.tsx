@@ -51,9 +51,9 @@ const Campus = () => {
             {facilities.map((facility, index) => (
               <div 
                 key={index} 
-                className="bg-card p-6 rounded-xl shadow-card hover:shadow-hover transition-all border-2 border-transparent hover:border-secondary/30 group"
+                className="bg-card p-6 rounded-xl shadow-card hover:shadow-glow transition-all border-2 border-transparent hover:border-secondary/30 group"
               >
-                <div className="w-14 h-14 bg-gradient-accent rounded-lg flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+                <div className="w-14 h-14 bg-gradient-accent rounded-lg flex items-center justify-center mb-5 group-hover:scale-110 transition-transform shadow-md">
                   <facility.icon className="w-7 h-7 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-card-foreground mb-3">{facility.title}</h3>
@@ -62,7 +62,7 @@ const Campus = () => {
             ))}
           </div>
           
-          <div className="mt-12 bg-gradient-accent p-8 rounded-2xl text-white text-center">
+          <div className="mt-12 bg-gradient-card p-8 rounded-2xl text-white text-center shadow-glow">
             <h3 className="text-2xl font-bold mb-3">Beyond the Classroom</h3>
             <p className="text-white/90 max-w-2xl mx-auto">
               From hackathons to cultural fests, from startup incubators to sports tournaments – 

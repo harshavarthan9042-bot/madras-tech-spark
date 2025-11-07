@@ -17,8 +17,10 @@ const Scholarships = () => {
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="bg-card p-8 rounded-2xl shadow-hover mb-6">
-                <DollarSign className="w-12 h-12 text-accent mb-4" />
+              <div className="bg-card p-8 rounded-2xl shadow-glow mb-6 border border-accent/20">
+                <div className="w-12 h-12 bg-gradient-warm rounded-lg flex items-center justify-center mb-4 shadow-md">
+                  <DollarSign className="w-8 h-8 text-white" />
+                </div>
                 <h3 className="text-2xl font-bold text-card-foreground mb-4">Merit Scholarships</h3>
                 <p className="text-muted-foreground mb-6">
                   Up to 100% tuition coverage for exceptional students based on academic performance, 
@@ -41,12 +43,12 @@ const Scholarships = () => {
               </div>
               
               <div className="grid grid-cols-2 gap-4">
-                <div className="bg-primary p-6 rounded-xl text-primary-foreground">
+                <div className="bg-gradient-card p-6 rounded-xl text-white shadow-md">
                   <Building2 className="w-8 h-8 mb-3 opacity-90" />
                   <p className="text-3xl font-bold mb-1">500+</p>
                   <p className="text-sm opacity-90">Partner Companies</p>
                 </div>
-                <div className="bg-secondary p-6 rounded-xl text-secondary-foreground">
+                <div className="bg-gradient-accent p-6 rounded-xl text-white shadow-md">
                   <Globe2 className="w-8 h-8 mb-3 opacity-90" />
                   <p className="text-3xl font-bold mb-1">30+</p>
                   <p className="text-sm opacity-90">Countries</p>
@@ -55,13 +57,13 @@ const Scholarships = () => {
             </div>
             
             <div>
-              <div className="relative rounded-2xl overflow-hidden shadow-hover mb-6">
+              <div className="relative rounded-2xl overflow-hidden shadow-glow mb-6">
                 <img 
                   src={placementImage} 
                   alt="Successful MEC graduates celebrating placement offers" 
                   className="w-full h-[400px] object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/50 to-transparent flex items-end p-6">
                   <div className="text-white">
                     <p className="text-2xl font-bold mb-1">95%+ Placement Rate</p>
                     <p className="text-white/90">Our Students, Your Future Colleagues</p>
@@ -69,8 +71,10 @@ const Scholarships = () => {
                 </div>
               </div>
               
-              <div className="bg-card p-8 rounded-2xl shadow-card">
-                <TrendingUp className="w-12 h-12 text-primary mb-4" />
+              <div className="bg-card p-8 rounded-2xl shadow-card border border-primary/10">
+                <div className="w-12 h-12 bg-gradient-card rounded-lg flex items-center justify-center mb-4 shadow-md">
+                  <TrendingUp className="w-8 h-8 text-white" />
+                </div>
                 <h3 className="text-2xl font-bold text-card-foreground mb-4">Top Recruiters & Packages</h3>
                 <p className="text-muted-foreground mb-4">
                   Our graduates join Fortune 500 companies, innovative startups, and leading research institutions worldwide.

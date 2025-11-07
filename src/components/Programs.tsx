@@ -63,13 +63,13 @@ const Programs = () => {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {programs.map((program, index) => (
-              <Card key={index} className="border-2 hover:border-primary/50 transition-all hover:shadow-hover group">
+              <Card key={index} className="border-2 hover:border-primary/50 transition-all hover:shadow-glow group bg-gradient-to-br from-card to-card/50">
                 <CardHeader>
                   <div className="flex items-start justify-between mb-4">
-                    <div className="w-12 h-12 bg-gradient-accent rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
+                    <div className="w-12 h-12 bg-gradient-card rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform shadow-md">
                       <program.icon className="w-6 h-6 text-white" />
                     </div>
-                    <Badge variant="secondary" className="bg-secondary/10 text-secondary border-secondary/20">
+                    <Badge variant="secondary" className="bg-gradient-accent text-white border-0 shadow-sm">
                       {program.badge}
                     </Badge>
                   </div>

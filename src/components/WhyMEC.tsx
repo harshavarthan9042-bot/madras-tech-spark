@@ -52,9 +52,9 @@ const WhyMEC = () => {
             <div className="order-2 lg:order-1">
               <div className="grid sm:grid-cols-2 gap-6">
                 {reasons.map((reason, index) => (
-                  <div key={index} className="bg-card p-6 rounded-xl shadow-card hover:shadow-hover transition-shadow">
-                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                      <reason.icon className="w-6 h-6 text-primary" />
+                  <div key={index} className="bg-card p-6 rounded-xl shadow-card hover:shadow-glow transition-all border border-primary/10">
+                    <div className="w-12 h-12 bg-gradient-card rounded-lg flex items-center justify-center mb-4 shadow-sm">
+                      <reason.icon className="w-6 h-6 text-white" />
                     </div>
                     <h3 className="text-lg font-bold text-card-foreground mb-2">{reason.title}</h3>
                     <p className="text-sm text-muted-foreground">{reason.description}</p>
@@ -64,13 +64,13 @@ const WhyMEC = () => {
             </div>
             
             <div className="order-1 lg:order-2">
-              <div className="relative rounded-2xl overflow-hidden shadow-hover">
+              <div className="relative rounded-2xl overflow-hidden shadow-glow">
                 <img 
                   src={techLabImage} 
                   alt="Students working in advanced technology lab" 
                   className="w-full h-[500px] object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-8">
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/40 to-transparent flex items-end p-8">
                   <div className="text-white">
                     <p className="text-3xl font-bold mb-2">State-of-the-Art Labs</p>
                     <p className="text-white/90">Where Innovation Meets Practice</p>
