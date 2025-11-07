@@ -21,23 +21,23 @@ const Scholarships = () => {
                 <div className="w-12 h-12 bg-gradient-warm rounded-lg flex items-center justify-center mb-4 shadow-md">
                   <DollarSign className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold text-card-foreground mb-4">Merit Scholarships</h3>
+                <h3 className="text-2xl font-bold text-card-foreground mb-4">Up to 100% Scholarships</h3>
                 <p className="text-muted-foreground mb-6">
-                  Up to 100% tuition coverage for exceptional students based on academic performance, 
-                  entrance exam scores, and extracurricular achievements.
+                  Based on merit, entrance exam ranks, and financial need. We believe talent should never 
+                  be held back by financial constraints.
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-primary rounded-full" />
-                    <p className="text-sm text-foreground">100% scholarship for rank holders</p>
+                    <p className="text-sm text-foreground">Merit-based: 50-100% fee waiver</p>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-secondary rounded-full" />
-                    <p className="text-sm text-foreground">50-75% for top 10% students</p>
+                    <p className="text-sm text-foreground">Paid internships with Fortune 500s</p>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-accent rounded-full" />
-                    <p className="text-sm text-foreground">Need-based financial aid available</p>
+                    <p className="text-sm text-foreground">Global tie-ups for exchange programs</p>
                   </div>
                 </div>
               </div>
@@ -75,9 +75,10 @@ const Scholarships = () => {
                 <div className="w-12 h-12 bg-gradient-card rounded-lg flex items-center justify-center mb-4 shadow-md">
                   <TrendingUp className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold text-card-foreground mb-4">Top Recruiters & Packages</h3>
+                <h3 className="text-2xl font-bold text-card-foreground mb-4">Fortune 500 Partnerships</h3>
                 <p className="text-muted-foreground mb-4">
-                  Our graduates join Fortune 500 companies, innovative startups, and leading research institutions worldwide.
+                  Strong partnerships with global companies ensure paid internships, live projects, 
+                  pre-placement offers, and excellent career opportunities for all our students.
                 </p>
                 <div className="flex flex-wrap gap-3">
                   {["Google", "Microsoft", "Amazon", "Infosys", "TCS", "Wipro", "Accenture", "Cognizant"].map((company, i) => (

@@ -5,32 +5,32 @@ const reasons = [
   {
     icon: CheckCircle2,
     title: "Industry-Ready Curriculum",
-    description: "Courses designed with input from tech giants, ensuring you learn what employers actually need."
+    description: "Updated courses aligned with current tech industry needs, designed with input from leading companies."
   },
   {
     icon: Users,
-    title: "Expert Faculty",
-    description: "Learn from professors with industry experience and PhDs from top global universities."
+    title: "Experienced Faculty",
+    description: "Learn from professors with PhDs, industry experience, and published research in cutting-edge technologies."
   },
   {
     icon: Briefcase,
-    title: "Guaranteed Internships",
-    description: "Every student gets real-world experience through partnerships with leading tech companies."
+    title: "Hands-On Learning",
+    description: "Real-world projects, live case studies, and practical labs ensure you master both theory and application."
   },
   {
     icon: Award,
-    title: "Placement Excellence",
-    description: "95%+ placement record with top packages from Fortune 500 companies and innovative startups."
+    title: "100% Placement Assistance",
+    description: "Dedicated placement cell, interview prep, soft skills training, and guaranteed support until you're placed."
   },
   {
     icon: Globe,
-    title: "Global Exposure",
-    description: "International exchange programs and collaborations with universities worldwide."
+    title: "Vibrant Student Life",
+    description: "50+ clubs, annual tech fests, sports tournaments, cultural events, and entrepreneurship opportunities."
   },
   {
     icon: TrendingUp,
-    title: "Career Growth Support",
-    description: "Dedicated placement cell, mentorship programs, and lifelong alumni network support."
+    title: "Global Exposure",
+    description: "International exchange programs, study tours, global hackathons, and collaborations with top universities."
   }
 ];
 
@@ -41,7 +41,7 @@ const WhyMEC = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Why Choose MEC?
+              Top Reasons to Study at MEC
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Join India's premier engineering institution and accelerate your journey to a successful tech career.

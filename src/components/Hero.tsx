@@ -26,7 +26,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-4 font-medium">
-            India's First Engineering College
+            India's 1st Engineering College
           </p>
           
           <p className="text-lg md:text-xl text-white/80 mb-10 max-w-3xl mx-auto">

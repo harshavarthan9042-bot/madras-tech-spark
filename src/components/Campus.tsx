@@ -2,34 +2,34 @@ import { Wifi, Home, Coffee, Users2, Library, Dumbbell } from "lucide-react";
 
 const facilities = [
   {
-    icon: Wifi,
-    title: "WiFi Campus",
-    description: "High-speed internet across all buildings and common areas"
-  },
-  {
     icon: Library,
-    title: "AC Smart Classrooms",
-    description: "Climate-controlled rooms with smart boards and modern amenities"
+    title: "Smart Classrooms",
+    description: "AC-equipped classrooms with smart boards, projectors, and modern learning technology"
   },
   {
     icon: Users2,
-    title: "Innovation Labs",
-    description: "Dedicated spaces for AI, cybersecurity, and data science projects"
+    title: "Modern Labs",
+    description: "Advanced labs for AI, ML, cybersecurity, networking, and data science with latest equipment"
   },
   {
     icon: Home,
-    title: "Modern Hostels",
-    description: "Comfortable accommodation with 24/7 security and amenities"
+    title: "AC Hostels",
+    description: "Safe, comfortable air-conditioned accommodation with 24/7 security and modern amenities"
+  },
+  {
+    icon: Wifi,
+    title: "WiFi Campus",
+    description: "High-speed internet connectivity across entire campus for seamless learning"
   },
   {
     icon: Coffee,
-    title: "Cafeteria & Food Court",
-    description: "Multiple dining options serving healthy, delicious meals"
+    title: "Cafeteria",
+    description: "Hygienic food court serving nutritious meals, snacks, and beverages all day"
   },
   {
     icon: Dumbbell,
-    title: "Sports & Clubs",
-    description: "50+ clubs including tech, sports, cultural, and entrepreneurship"
+    title: "Clubs & Activities",
+    description: "50+ clubs including coding, robotics, photography, music, dance, and sports teams"
   }
 ];
 

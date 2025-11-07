@@ -4,6 +4,7 @@ import Programs from "@/components/Programs";
 import WhyMEC from "@/components/WhyMEC";
 import Campus from "@/components/Campus";
 import Scholarships from "@/components/Scholarships";
+import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -15,6 +16,7 @@ const Index = () => {
       <WhyMEC />
       <Campus />
       <Scholarships />
+      <FAQ />
       <Footer />
     </div>
   );

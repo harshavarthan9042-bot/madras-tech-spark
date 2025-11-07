@@ -7,11 +7,12 @@ const Overview = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              A Legacy of Excellence
+              College Overview
             </h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Established in 1856, Madras Engineering College stands as a beacon of innovation, 
-              research, and academic excellence in engineering education.
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+              Since 1856, Madras Engineering College has been at the forefront of engineering excellence. 
+              As India's 1st Engineering College, we specialize in cutting-edge technology education, 
+              combining innovation, world-class research, and industry partnerships to shape the future tech leaders of tomorrow.
             </p>
           </div>
           
@@ -20,10 +21,11 @@ const Overview = () => {
               <div className="w-14 h-14 bg-gradient-card rounded-lg flex items-center justify-center mb-6 shadow-md">
                 <Target className="w-7 h-7 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-card-foreground mb-4">Our Vision</h3>
+              <h3 className="text-2xl font-bold text-card-foreground mb-4">Technology-Driven Education</h3>
               <p className="text-muted-foreground leading-relaxed">
-                To be a world-class institution that nurtures future tech leaders, fostering innovation 
-                and creating solutions for global challenges through cutting-edge education and research.
+                Our curriculum is designed around emerging technologies - AI, Machine Learning, Data Science, 
+                Cybersecurity, and Business Systems - ensuring students are industry-ready from day one with 
+                hands-on learning and real-world projects.
               </p>
             </div>
             
@@ -31,10 +33,11 @@ const Overview = () => {
               <div className="w-14 h-14 bg-gradient-accent rounded-lg flex items-center justify-center mb-6 shadow-md">
                 <Lightbulb className="w-7 h-7 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-card-foreground mb-4">Innovation Hub</h3>
+              <h3 className="text-2xl font-bold text-card-foreground mb-4">Innovation & Research Excellence</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Our state-of-the-art labs and research centers are equipped with the latest technology, 
-                enabling students to work on groundbreaking projects in AI, ML, cybersecurity, and more.
+                Our state-of-the-art research centers and innovation labs foster groundbreaking work in 
+                artificial intelligence, cybersecurity, and data analytics, with students publishing papers 
+                and filing patents alongside renowned faculty.
               </p>
             </div>
             
@@ -42,10 +45,11 @@ const Overview = () => {
               <div className="w-14 h-14 bg-gradient-warm rounded-lg flex items-center justify-center mb-6 shadow-md">
                 <BookOpen className="w-7 h-7 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-card-foreground mb-4">Research Focus</h3>
+              <h3 className="text-2xl font-bold text-card-foreground mb-4">Global Industry Partnerships</h3>
               <p className="text-muted-foreground leading-relaxed">
-                MEC's dedicated research programs collaborate with Fortune 500 companies and global 
-                universities, ensuring our curriculum stays ahead of industry trends.
+                Strong collaborations with Fortune 500 companies, international universities, and tech giants 
+                provide our students with paid internships, live projects, global exposure, and guaranteed 
+                placement opportunities in leading organizations worldwide.
               </p>
             </div>
           </div>
