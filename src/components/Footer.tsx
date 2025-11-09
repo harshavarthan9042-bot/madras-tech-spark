@@ -66,10 +66,10 @@ const Footer = () => {
           
           <div className="pt-8 border-t border-white/20 text-center">
             <p className="text-white/60 text-sm">
-              © {new Date().getFullYear()} Madras Engineering College. All rights reserved. | Established 1856
+              © {new Date().getFullYear()} MAMMUTTI ENGINEERING COLLEGE. All rights reserved. | Established 1856
             </p>
             <p className="text-white/90 mt-2 font-medium">
-              Begin Your Tech Journey at Madras Engineering College – Apply Now!
+              Begin Your Tech Journey at MAMMUTTI ENGINEERING COLLEGE – Apply Now!
             </p>
           </div>
         </div>

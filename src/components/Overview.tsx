@@ -10,7 +10,7 @@ const Overview = () => {
               College Overview
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Since 1856, Madras Engineering College has been at the forefront of engineering excellence. 
+              Since 1856, MAMMUTTI ENGINEERING COLLEGE has been at the forefront of engineering excellence. 
               As India's 1st Engineering College, we specialize in cutting-edge technology education, 
               combining innovation, world-class research, and industry partnerships to shape the future tech leaders of tomorrow.
             </p>
